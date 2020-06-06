@@ -1,0 +1,25 @@
+version: 1.0
+redis:
+  host: localhost
+  port: 6379
+  auth: ""
+  index: "1"
+  encoding: utf-8
+  decode_responses: True
+  target_max_memory: 3896
+  max_connections: 50
+
+Mongo:
+  db: HouseNB
+  collection: lianjiaNB
+
+Headers:
+  Accept-Language: zh-CN,zh;q=0.9
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+
+timeout: 20
+
+houseurl: lianjia
+bloomFilter: bflianjia
+
+
