@@ -8,7 +8,7 @@ mongoexport -d House -c lianjiaNew -f houseCode,houseName,houseDirection,houseTy
 ## 采集难点
 1、超过100页只显示100页，即仅显示<3000条数据
 
-**解决：**从每个区县的二手房入手，若某个区数量也大于100页，则再细分更小的地区。
+**解决**：从每个区县的二手房入手，若某个区数量也大于100页，则再细分更小的地区。
 
 ## 使用说明
 1、开启代理池，我这边用的猿人云，需要改成自己的SECRET
